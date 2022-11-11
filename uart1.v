@@ -75,8 +75,8 @@ tx_start_bit:
 			r_state<=tx_data_bit;
 			if(next==0)r_data_bits=8'b01010011;
 			else if(next==1)r_data_bits=8'b01000010;
-			else if(next==2)r_data_bits=8'b00010111;
-			else if(next==3)r_data_bits=8'b01000111;
+			else if(next==2)r_data_bits=8'b00110111;
+			else if(next==3)r_data_bits=8'b00110001;
 			else r_data_bits=0;
 			end
 			end
